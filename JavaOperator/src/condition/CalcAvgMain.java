@@ -1,4 +1,4 @@
-package ifCondition;
+package condition;
 
 /*
  * @Data : 2015.07.09
