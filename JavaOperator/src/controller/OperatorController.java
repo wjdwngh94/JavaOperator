@@ -3,7 +3,8 @@ package controller;
 import condition.ArithmeticCalc;
 import condition.CalcAvg;
 import condition.ManOrWoman;
-import condition.SwitchAvg; 
+import condition.SwitchAvg;
+import loop.EvenOddSum; 
 //대쉬보드 기능
 public class OperatorController {
 
@@ -23,7 +24,11 @@ public class OperatorController {
 		
 		//2015-07-10 switch와 charAt활용 (주민번호 / 남여외국인 )
 		ManOrWoman manOrWoman = new ManOrWoman();
-		manOrWoman.ssn(); //ssn() 은 원래 클래스의 메소드 이름이다. 
+		//manOrWoman.ssn(); //ssn() 은 원래 클래스의 메소드 이름이다. 
 		//로컬 valuable 
+		
+		//2015-07-13 for문과 if문으로 a-b홀짝합구하기
+		EvenOddSum evenOddSum = new EvenOddSum();
+		evenOddSum.calc(); // main 메소드가 있는 곳으로  calc를 불러온다.
 	}
 }
