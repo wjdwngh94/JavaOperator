@@ -10,6 +10,7 @@ public class OperatorController {
 
 	public static void main(String[] args) {
 
+		// 각각의 객체 - 데이터 담는 기능은 없지만, 메소드/알고리즘을 감추는 기능
 		// 2015-07-09 성적 계산기
 		CalcAvg avg = new CalcAvg();
 		//avg.calcAvg();
